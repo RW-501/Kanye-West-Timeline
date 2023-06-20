@@ -27,7 +27,7 @@
   transform: translate(-50%, -50%);
 }
 
-.timeline-cards-container {
+.timeline-column {
   display: flex;
   flex-direction: column;
 }
@@ -42,4 +42,65 @@
 .card-border {
   padding: 20px;
   border: 2px solid #000;
-  border
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.card-date {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  margin-left: 20px;
+}
+
+.card-text-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.card-text-body {
+  margin-top: 10px;
+}
+
+.card-line-container {
+  position: relative;
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.card-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+
+.card-line-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+#timeline-nav {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.timeline-nav-item {
+  margin: 0 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
