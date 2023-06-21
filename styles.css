@@ -86,8 +86,9 @@ body {
 }
 
 .left{
-width: 42%;
-      float: right;
+    width: 42%;
+    float: right;
+    text-align: end;
 }
 
 .right{
