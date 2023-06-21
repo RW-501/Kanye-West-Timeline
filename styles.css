@@ -63,6 +63,17 @@ body {
   transition: transform 0.3s ease-in-out;
 }
 
+.left{
+width: 42%;
+      float: right;
+}
+
+.right{
+width: 42%;
+      float: left;
+}
+
+
 .card:hover {
   transform: scale(1.02);
 }
