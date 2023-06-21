@@ -1,106 +1,111 @@
-/* styles.css */
+/* Add or modify the styles as desired */
 .timeline-cards-main-container {
   position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 0;
+  height: 100vh;
+  overflow: auto;
 }
 
 .timeline-cards-main-container-line {
   position: absolute;
-  top: 0;
-  bottom: 0;
   left: 50%;
+  top: 0;
   width: 2px;
+  height: 100%;
   background-color: #000;
 }
 
 .timeline-cards-main-container-line-anchor {
   position: absolute;
-  top: 0;
-  left: 50%;
-  width: 20px;
-  height: 20px;
+  left: -6px;
+  top: -6px;
+  width: 12px;
+  height: 12px;
   border-radius: 50%;
   background-color: #000;
-  transform: translate(-50%, -50%);
 }
 
 .timeline-column {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .card {
   position: relative;
   display: flex;
-  align-items: center;
-  margin: 20px 0;
-}
-
-.card-border {
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 45%;
   padding: 20px;
-  border: 2px solid #000;
-  border-radius: 8px;
-  background-color: #fff;
+  margin-top: 30px;
+  background-color: #f5f5f5;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
-.card-date {
-  font-weight: bold;
-  font-size: 24px;
-  margin-bottom: 10px;
+.card:before {
+  content: "";
+  position: absolute;
+  left: -4px;
+  top: 0;
+  width: 4px;
+  height: 100%;
+  background-color: #000;
+}
+
+.card.odd:before {
+  background-color: #ff0000;
 }
 
 .card-text {
   margin-left: 20px;
 }
 
-.card-text-title {
+.card-date {
+  font-size: 24px;
   font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text-title {
   font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
-.card-text-body {
-  margin-top: 10px;
+.card-text-body p {
+  margin: 0;
 }
 
-.card-line-container {
-  position: relative;
+.event-details {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 50%;
   height: 100%;
-  flex: 1;
-  display: flex;
-  align-items: center;
+  padding: 40px;
+  background-color: #fff;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 999;
 }
 
-.card-line {
+.event-details-content {
+  height: 100%;
+  overflow: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.close-button {
   position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #000;
-}
-
-.card-line-circle {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background-color: #000;
-}
-
-#timeline-nav {
-  display: flex;
-  justify-content: center;
-  padding: 20px 0;
-}
-
-.timeline-nav-item {
-  margin: 0 10px;
-  font-size: 16px;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
   cursor: pointer;
 }
