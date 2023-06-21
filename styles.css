@@ -100,13 +100,13 @@ width: 41%;
 content: " ";
     height: 0;
     position: absolute;
-    top: 22px;
-    width: 100%;
+    top: 32px;
+    width: 0;
     z-index: 1;
     left: 10px;
     border: medium solid black;
     border-width: 10px 10px 10px 0;
-    border-color: transparent transparent transparent #2b2b2b;
+    border-color: transparent black transparent transparent;
 
 }
 
@@ -128,8 +128,8 @@ content: " ";
   transform: scale(1.02);
 }
 
-.card:after {
-  content: "";
+.card: after {
+ 
   position: absolute;
   top: 50%;
   right: -8px;
