@@ -86,13 +86,13 @@ body {
 }
 
 .left{
-    width: 42%;
+    width: 40%;
     float: right;
     text-align: end;
 }
 
 .right{
-width: 41%;
+width: 40%;
       float: left;
 }
 
@@ -101,7 +101,7 @@ width: 41%;
 content: " ";
     height: 0;
     position: absolute;
-    top: 32px;
+    top: 45px;
     width: 0;
     z-index: 1;
     left: 10px;
@@ -122,7 +122,7 @@ content: " ";
     z-index: 1;
     border: medium solid black;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent #2b2b2b;
+    border-color: transparent black transparent transparent;
 }
 
 .card:hover {
