@@ -1,33 +1,35 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Kanye West Timeline</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Kanye West Timeline</h1>
-    <input type="text" id="search-bar" placeholder="Search by hashtag">
-  </header>
+<html lang="en">
 
-  <nav id="timeline-nav"></nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Kanye West Timeline</title>
+</head>
+
+<body>
+  <nav>
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search by hashtag">
+    </div>
+    <div id="timeline-nav" class="timeline-nav"></div>
+  </nav>
 
   <div class="timeline-cards-main-container">
     <div class="timeline-cards-main-container-line">
       <div class="timeline-cards-main-container-line-anchor"></div>
     </div>
-    <div id="timeline-column"></div>
+    <div id="timeline-column" class="timeline-column"></div>
   </div>
 
-  <div id="card-details">
-    <div id="card-details-content">
-      <h2 id="card-details-title"></h2>
-      <div id="card-details-description"></div>
-      <button id="card-details-close">Close</button>
-    </div>
+  <div id="eventDetails" class="event-details hidden">
+    <div id="closeButton" class="close-button">X</div>
+    <div id="eventDetailsContent" class="event-details-content"></div>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="script.js"></script>
 </body>
+
 </html>
