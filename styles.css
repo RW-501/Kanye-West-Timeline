@@ -39,7 +39,16 @@ body {
   max-width: 800px;
 }
 
-
+.timeline-cards-main-container:after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
 
 .timeline-cards-main-container-line {
      position: absolute;
