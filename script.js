@@ -1,6 +1,7 @@
 $(document).ready(function() {
   // Load event data from JSON file
   $.getJSON("timeline.json", function(data) {
+    console.log("Data loaded:", data);
     var events = data.events;
     var timelineNav = $("#timeline-nav");
     var timelineColumn = $("#timeline-column");
@@ -59,5 +60,7 @@ $(document).ready(function() {
       modal.find(".event-details-description").html(event.longDescription);
       modalContent.addClass("show");
     }
+  }).fail(function(jqxhr, textStatus, error) {
+    console.log("Error loading JSON file:", textStatus, error);
   });
 });
