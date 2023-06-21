@@ -97,31 +97,33 @@ width: 41%;
 
 /* Add arrows to the left container (pointing right) */
 .left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid black;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
+content: " ";
+    height: 0;
+    position: absolute;
+    top: 22px;
+    width: 100%;
+    z-index: 1;
+    left: 10px;
+    border: medium solid black;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent transparent transparent #2b2b2b;
+
 }
 
 /* Add arrows to the right container (pointing left) */
 .right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid black;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
+ 
+    content: " ";
+    height: 0;
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    z-index: 1;
+    border: medium solid black;
+    border-width: 10px 0 10px 10px;
+    border-color: transparent transparent transparent #2b2b2b;
 }
+
 .card:hover {
   transform: scale(1.02);
 }
