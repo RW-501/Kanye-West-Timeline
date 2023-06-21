@@ -1,94 +1,197 @@
 {
-"events": [
-{
-"id": "event1",
-"date": "2004",
-"title": "The College Dropout",
-"shortDescription": "Kanye releases his debut album",
-"pictureURL": "https://example.com/album_image.jpg",
-"longDescription": "<p>The College Dropout is the debut studio album by Kanye West, released in 2004. It received critical acclaim for its innovative production, introspective lyrics, and unique blend of hip-hop and soul.</p>",
-"hashtags": ["#Music", "#HipHop", "#Soul"]
-},
-{
-"id": "event2",
-"date": "2007",
-"title": "Graduation",
-"shortDescription": "Kanye's third studio album",
-"pictureURL": "https://example.com/album_image.jpg",
-"longDescription": "<p>Graduation is Kanye West's third studio album, released in 2007. It features the hit singles 'Stronger' and 'Good Life' and explores themes of personal growth and ambition.</p>",
-"hashtags": ["#Music", "#HipHop", "#Graduation"]
-},
-{
-"id": "event3",
-"date": "2010",
-"title": "My Beautiful Dark Twisted Fantasy",
-"shortDescription": "Critically acclaimed album",
-"pictureURL": "https://example.com/album_image.jpg",
-"longDescription": "<p>My Beautiful Dark Twisted Fantasy is Kanye West's fifth studio album, released in 2010. It received widespread critical acclaim for its ambitious production, provocative lyrics, and innovative musical style. The album is often regarded as one of the greatest albums of all time.</p>",
-"hashtags": ["#Music", "#HipHop", "#Masterpiece"]
-},
-{
-"id": "event4",
-"date": "2011",
-"title": "Watch the Throne",
-"shortDescription": "Collaborative album with Jay-Z",
-"pictureURL": "https://example.com/album_image.jpg",
-"longDescription": "<p>Watch the Throne is a collaborative album by Kanye West and Jay-Z, released in 2011. The album features a fusion of their respective musical styles and includes guest appearances from artists like Beyoncé and Frank Ocean. It received positive reviews and achieved commercial success.</p>",
-"hashtags": ["#Music", "#HipHop", "#Collaboration"]
-},
-{
-"id": "event5",
-"date": "2013",
-"title": "Yeezus",
-"shortDescription": "Experimental and abrasive album",
-"pictureURL": "https://example.com/album_image.jpg",
-"longDescription": "<p>Yeezus is Kanye West's sixth studio album, released in 2013. It takes a more experimental and abrasive musical direction, incorporating elements of industrial, electronic, and punk music. Despite mixed initial reactions, the album is considered a significant artistic achievement.</p>",
-"hashtags": ["#Music", "#HipHop", "#Experimental"]
-},
-{
-"id": "event6",
-"date": "2016",
-"title": "The Life of Pablo",
-"shortDescription": "Exclusive album on Tidal",
-"pictureURL": "https://example.com/album_image.jpg",
-"longDescription": "<p>The Life of Pablo is Kanye West's seventh studio album, released in 2016 exclusively on the streaming platform Tidal. The album features a diverse range of guest artists and explores themes of faith, fame, and personal struggles. It received mixed reviews but was a commercial success.</p>",
-"hashtags": ["#Music", "#HipHop", "#Faith"]
-},
-{
-"id": "event7",
-"date": "2018",
-"title": "Ye",
-"shortDescription": "Introspective and personal album",
-"pictureURL": "https://example.com/album_image.jpg",
-"longDescription": "<p>Ye is Kanye West's eighth studio album, released in 2018. It features a more introspective and personal tone, addressing West's mental health struggles, controversies, and his relationships. The album received mixed reviews but resonated with many fans.</p>",
-"hashtags": ["#Music", "#HipHop", "#Introspection"]
-},
-{
-"id": "event8",
-"date": "2021",
-"title": "Donda",
-"shortDescription": "Album named after his late mother",
-"pictureURL": "https://example.com/album_image.jpg",
-"longDescription": "<p>Donda is Kanye West's tenth studio album, released in 2021. It is named after his late mother, Donda West, and serves as a tribute to her. The album received positive reviews and debuted at the top of the charts, showcasing West's artistic vision and versatility.</p>",
-"hashtags": ["#Music", "#HipHop", "#Donda"]
-},
-{
-"id": "event9",
-"date": "2022",
-"title": "Yeezy Gap Collaboration",
-"shortDescription": "Collaboration with fashion brand Gap",
-"pictureURL": "https://example.com/fashion_image.jpg",
-"longDescription": "<p>Kanye West announces a collaboration with fashion brand Gap in 2022. The collaboration, known as 'Yeezy Gap,' brings West's distinctive fashion aesthetic to a wider audience with a line of apparel and accessories.</p>",
-"hashtags": ["#Fashion", "#Collaboration", "#YeezyGap"]
-},
-{
-"id": "event10",
-"date": "2023",
-"title": "Ongoing Influence and Artistic Ventures",
-"shortDescription": "Continuing impact on music, fashion, and culture",
-"pictureURL": "https://example.com/kanye_image.jpg",
-"longDescription": "<p>As of the current date, Kanye West continues to be an influential figure in music, fashion, and popular culture. His artistic ventures, personal life, and public statements continue to draw attention and spark discussions.</p>",
-"hashtags": ["#Influence", "#ArtisticVentures"]
-}
-]
+  "events": [
+    {
+      "id": "event1",
+      "date": "June 8, 1977",
+      "title": "Kanye Omari West is born",
+      "shortDescription": "Kanye is born in Atlanta, Georgia",
+      "pictureURL": "",
+      "longDescription": "<p>Kanye Omari West is born in Atlanta, Georgia, to Ray West and Donda West. He is the eldest of their three children.</p>",
+      "hashtags": ["#Birth", "#KanyeWest"]
+    },
+    {
+      "id": "event2",
+      "date": "1980s",
+      "title": "Relocation to Chicago",
+      "shortDescription": "West's family moves to Chicago",
+      "pictureURL": "",
+      "longDescription": "<p>Kanye West's family relocates to Chicago, Illinois. This city will have a profound impact on his future music and artistic style.</p>",
+      "hashtags": ["#Chicago", "#Relocation"]
+    },
+    {
+      "id": "event3",
+      "date": "Early 1990s",
+      "title": "Early Interest in Music",
+      "shortDescription": "Kanye shows interest in music",
+      "pictureURL": "",
+      "longDescription": "<p>Kanye West shows an early interest in music and begins making beats and rapping. He attends Polaris High School and later transfers to Oak Lawn Community High School.</p>",
+      "hashtags": ["#Music", "#Passion"]
+    },
+    {
+      "id": "event4",
+      "date": "1996",
+      "title": "Music Production Career Begins",
+      "shortDescription": "West starts creating beats for local artists",
+      "pictureURL": "",
+      "longDescription": "<p>Kanye West begins his music production career by creating beats for local artists in Chicago.</p>",
+      "hashtags": ["#MusicProduction", "#Chicago"]
+    },
+    {
+      "id": "event5",
+      "date": "1997",
+      "title": "Scholarship and Music Pursuit",
+      "shortDescription": "West receives a scholarship and drops out",
+      "pictureURL": "",
+      "longDescription": "<p>Kanye West receives a scholarship to attend the American Academy of Art in Chicago but drops out after one semester to pursue music full-time.</p>",
+      "hashtags": ["#Scholarship", "#MusicCareer"]
+    },
+    {
+      "id": "event6",
+      "date": "2000",
+      "title": "Recognition as a Producer",
+      "shortDescription": "West gains recognition in the music industry",
+      "pictureURL": "",
+      "longDescription": "<p>Kanye West starts gaining recognition in the music industry as a producer, working with artists such as Jay-Z, Alicia Keys, and Janet Jackson. He produces several tracks on Jay-Z's album 'The Blueprint'.</p>",
+      "hashtags": ["#MusicProducer", "#Recognition"]
+    },
+    {
+      "id": "event7",
+      "date": "2004",
+      "title": "The College Dropout",
+      "shortDescription": "Kanye releases his debut album",
+      "pictureURL": "",
+      "longDescription": "<p>The College Dropout is the debut studio album by Kanye West, released in 2004. It received critical acclaim for its innovative production, introspective lyrics, and unique blend of hip-hop and soul.</p>",
+      "hashtags": ["#Music", "#HipHop", "#Soul"]
+    },
+    {
+      "id": "event8",
+      "date": "2005",
+      "title": "Late Registration",
+      "short
+
+Description": "West's second studio album",
+      "pictureURL": "",
+      "longDescription": "<p>Late Registration is Kanye West's second studio album, released in 2005. It features collaborations with artists like Jamie Foxx, Common, and Adam Levine.</p>",
+      "hashtags": ["#Music", "#HipHop"]
+    },
+    {
+      "id": "event9",
+      "date": "2007",
+      "title": "Graduation",
+      "shortDescription": "Kanye's third studio album",
+      "pictureURL": "",
+      "longDescription": "<p>Graduation is Kanye West's third studio album, released in 2007. It features the hit singles 'Stronger' and 'Good Life' and explores themes of personal growth and ambition.</p>",
+      "hashtags": ["#Music", "#HipHop", "#Graduation"]
+    },
+    {
+      "id": "event10",
+      "date": "2008",
+      "title": "MTV Video Music Awards Incident",
+      "shortDescription": "West interrupts Taylor Swift's speech",
+      "pictureURL": "",
+      "longDescription": "<p>During the MTV Video Music Awards, Kanye West interrupts Taylor Swift's acceptance speech, sparking controversy and public backlash. The incident leads to a significant backlash against West, though he later apologizes for his actions.</p>",
+      "hashtags": ["#VMAs", "#Controversy"]
+    },
+    {
+      "id": "event11",
+      "date": "2010",
+      "title": "My Beautiful Dark Twisted Fantasy",
+      "shortDescription": "Kanye releases acclaimed album",
+      "pictureURL": "",
+      "longDescription": "<p>My Beautiful Dark Twisted Fantasy is Kanye West's fifth studio album, released in 2010. It receives widespread acclaim and is often regarded as one of the greatest albums of all time.</p>",
+      "hashtags": ["#Music", "#HipHop", "#Acclaimed"]
+    },
+    {
+      "id": "event12",
+      "date": "2011",
+      "title": "Watch the Throne",
+      "shortDescription": "Collaborative album with Jay-Z",
+      "pictureURL": "",
+      "longDescription": "<p>Watch the Throne is a collaborative album by Kanye West and Jay-Z, released in 2011. The album receives positive reviews and achieves commercial success.</p>",
+      "hashtags": ["#Music", "#Collaboration"]
+    },
+    {
+      "id": "event13",
+      "date": "2013",
+      "title": "Yeezus",
+      "shortDescription": "West's sixth studio album",
+      "pictureURL": "",
+      "longDescription": "<p>Yeezus is Kanye West's sixth studio album, released in 2013. It takes a more experimental and abrasive musical direction, and despite mixed initial reactions, the album is considered a significant artistic achievement.</p>",
+      "hashtags": ["#Music", "#Experimental"]
+    },
+    {
+      "id": "event14",
+      "date": "2014",
+      "title": "Marriage to Kim Kardashian",
+      "shortDescription": "West marries reality TV star",
+      "pictureURL": "",
+      "longDescription": "<p>Kanye West marries reality TV star Kim Kardashian in a high-profile wedding ceremony.</p>",
+      "hashtags": ["#Marriage", "#KimKardashian"]
+    },
+    {
+      "id": "event15",
+      "date": "2016",
+      "title": "The Life of Pablo",
+      "shortDescription": "West's seventh studio album",
+      "pictureURL": "",
+      "longDescription
+
+": "<p>The Life of Pablo is Kanye West's seventh studio album, released in 2016 exclusively on the streaming platform Tidal. The album receives mixed reviews but is a commercial success.</p>",
+      "hashtags": ["#Music", "#HipHop"]
+    },
+    {
+      "id": "event16",
+      "date": "2018",
+      "title": "Ye",
+      "shortDescription": "West's eighth studio album",
+      "pictureURL": "",
+      "longDescription": "<p>Ye is Kanye West's eighth studio album, released in 2018. The album features a more introspective and personal tone, addressing his mental health struggles and controversial public image.</p>",
+      "hashtags": ["#Music", "#Introspective"]
+    },
+    {
+      "id": "event17",
+      "date": "2019",
+      "title": "Sunday Service",
+      "shortDescription": "West starts gospel-inspired events",
+      "pictureURL": "",
+      "longDescription": "<p>Kanye West starts his Sunday Service events, a series of gospel-inspired musical performances featuring a choir and gospel arrangements of his songs. These events gain attention and become a cultural phenomenon.</p>",
+      "hashtags": ["#SundayService", "#Gospel"]
+    },
+    {
+      "id": "event18",
+      "date": "2020",
+      "title": "Presidential Campaign",
+      "shortDescription": "West announces candidacy for President",
+      "pictureURL": "",
+      "longDescription": "<p>Kanye West announces his candidacy for President of the United States, running as an independent candidate under the 'Birthday Party' banner. However, his campaign is largely symbolic and does not gain significant traction.</p>",
+      "hashtags": ["#Election", "#PresidentialCampaign"]
+    },
+    {
+      "id": "event19",
+      "date": "2021",
+      "title": "Donda",
+      "shortDescription": "Tenth studio album released",
+      "pictureURL": "",
+      "longDescription": "<p>Donda is Kanye West's tenth studio album, named after his late mother. The album receives positive reviews and debuts at the top of the charts.</p>",
+      "hashtags": ["#Music", "#Donda"]
+    },
+    {
+      "id": "event20",
+      "date": "2022",
+      "title": "Yeezy Gap Collaboration",
+      "shortDescription": "Collaboration with fashion brand Gap",
+      "pictureURL": "",
+      "longDescription": "<p>Kanye West announces a collaboration with fashion brand Gap, launching the 'Yeezy Gap' line.</p>",
+      "hashtags": ["#Fashion", "#YeezyGap"]
+    },
+    {
+      "id": "event21",
+      "date": "2023",
+      "title": "Ongoing Influence",
+      "shortDescription": "Continued impact in music and fashion",
+      "pictureURL": "",
+      "longDescription": "<p>As of the current date, Kanye West continues to be an influential figure in music, fashion, and popular culture. His artistic ventures, personal life, and public statements continue to draw attention and spark discussions.</p>",
+      "hashtags": ["#Influence", "#KanyeWest"]
+    }
+  ]
 }
