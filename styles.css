@@ -165,6 +165,11 @@ width: 41%;
   font-weight: bold;
   cursor: pointer;
 }
+.event-details-date{
+  font-size: 24px;
+  margin: 10px;
+}
+
 
 .event-details-title {
   font-size: 24px;
