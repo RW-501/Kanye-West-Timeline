@@ -56,6 +56,7 @@ $(document).ready(function() {
     });
 
     function showEventDetails(event) {
+      modal.find(".event-details-date").text(event.date);
       modal.find(".event-details-title").text(event.title);
       modal.find(".event-details-description").html(event.longDescription);
       modalContent.addClass("show");
