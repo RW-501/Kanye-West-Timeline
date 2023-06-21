@@ -39,6 +39,18 @@ body {
   max-width: 800px;
 }
 
+
+/* The actual timeline (the vertical ruler) */
+.timeline-cards-main-container:after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
 .timeline-cards-main-container-line {
      position: absolute;
     top: 0;
