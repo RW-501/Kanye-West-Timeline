@@ -35,7 +35,7 @@ body {
 .timeline-cards-main-container {
   position: initial;
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
   max-width: 800px;
 }
 
@@ -92,7 +92,7 @@ width: 42%;
 }
 
 .right{
-width: 42%;
+width: 41%;
       float: left;
 }
 
