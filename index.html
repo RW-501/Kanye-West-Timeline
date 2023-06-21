@@ -2,23 +2,30 @@
 <html>
 <head>
   <title>Kanye West Timeline</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
   <header>
-    <nav id="timeline-nav"></nav>
+    <h1>Kanye West Timeline</h1>
+    <input type="text" id="search-bar" placeholder="Search by hashtag">
   </header>
 
-  <main>
-    <div class="timeline-cards-main-container">
-      <div class="timeline-cards-main-container-line">
-        <div class="timeline-cards-main-container-line-anchor"></div>
-      </div>
+  <nav id="timeline-nav"></nav>
 
-      <div id="timeline-column"></div>
-
+  <div class="timeline-cards-main-container">
+    <div class="timeline-cards-main-container-line">
+      <div class="timeline-cards-main-container-line-anchor"></div>
     </div>
-  </main>
+    <div id="timeline-column"></div>
+  </div>
+
+  <div id="card-details">
+    <div id="card-details-content">
+      <h2 id="card-details-title"></h2>
+      <div id="card-details-description"></div>
+      <button id="card-details-close">Close</button>
+    </div>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="script.js"></script>
